@@ -3,9 +3,9 @@
     "version": "1.0.0",
     "scripts": {
         "test": "jest",
-        "dev": "next",
-        "build": "next build",
-        "start": "next start",
+        "dev": "next src",
+        "build": "next build src",
+        "start": "next start src",
         "precommit": "lint-staged"
     },
     "dependencies": {
