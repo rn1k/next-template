@@ -1,44 +1,46 @@
-# Example app with Jest tests inside a NextJS TypeScript app
+# Next.js sample code
 
-## How to use
+Next.js sample code with ...
 
-### Using `create-next-app`
+-   express (as custom server)
+-   typescript
+-   redux-saga
+-   next-redux-wrapper
+-   styled-components
+-   jest
+-   storybook
+-   prettier (as formatter)
 
-Execute [`create-next-app`](https://github.com/segmentio/create-next-app) with [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) or [npx](https://github.com/zkat/npx#readme) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-jest-typescript with-jest-typescript-app
-# or
-yarn create next-app --example with-jest-typescript with-jest-typescript-app
-```
-
-### Download manually
-
-Download the example:
+## Setup
 
 ```bash
-curl https://codeload.github.com/zeit/next.js/tar.gz/canary | tar -xz --strip=2 next.js-canary/examples/with-jest-typescript
-cd with-jest-typescript
+$ git clone git@github.com:rn1k/next-template.git
+$ yarn install
 ```
 
-Install it and run:
+## Development
 
 ```bash
-npm install
-npm run dev
-# or
-yarn
-yarn dev
+$ yarn dev
+$ open http://localhost:3000
 ```
 
-## Run Jest tests
+## Test
 
 ```bash
-npm run test
-# or
-yarn test
+$ yarn test
 ```
 
-## The idea behind the example
+## Storybook
 
-This example shows a configuration and several examples for a running Jest tests in a NextJS TypeScript app
+```bash
+$ yarn storybook
+```
+
+## Production
+
+```bash
+$ yarn build
+$ yarn start
+$ open http://localhost:3000
+```
