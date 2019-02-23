@@ -18,7 +18,7 @@
         "import-name": false,
         "indent": [true, "spaces", 4],
         "insecure-random": true,
-        "interface-name": [true, "never-prefix"],
+        "interface-name": true,
         "jsdoc-format": true,
         "jsx-alignment": true,
         "jsx-equals-spacing": "never",
@@ -46,7 +46,7 @@
                 ]
             }
         ],
-        "newline-before-return": true,
+        "newline-before-return": false,
         "no-any": false,
         "no-arg": true,
         "no-banned-terms": true,
@@ -89,7 +89,7 @@
         "no-octal-literal": true,
         "no-regex-spaces": true,
         "no-single-line-block-comment": false,
-        "no-shadowed-variable": true,
+        "no-shadowed-variable": false,
         "no-string-literal": false,
         "no-submodule-imports": false,
         "no-suspicious-comment": true,
