@@ -1,5 +1,5 @@
+import Link from 'next/link';
 import * as React from 'react';
-
 import styled from 'styled-components';
 import SampleComponent from '../components/SampleComponent/SampleComponent';
 import SampleContainer from '../containers/SampleContainer/SampleContainer';
@@ -26,6 +26,9 @@ const SamplePage: React.SFC<ISampleProps> = (
                 label="sampleCheckbox"
             />
             <SampleContainer />
+            <Link href="/" as="/">
+                <a>topへのリンク</a>
+            </Link>
         </div>
     );
 };

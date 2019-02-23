@@ -13,8 +13,10 @@ const StyledCaption = styled.h1`
     background-color: #cccccc;
 `;
 
-storiesOf('Button', module)
-    .add('with text', () => <StyledCaption>Hello Button</StyledCaption>)
+storiesOf('StyledComponent', module)
+    .add('with text', () => (
+        <StyledCaption>Hello Styled-Component</StyledCaption>
+    ))
     .add('with some emoji', () => (
         <StyledCaption>
             <span role="img" aria-label="so cool">

@@ -1,5 +1,4 @@
 import IState from 'IState';
-import Link from 'next/link';
 import { connect } from 'react-redux';
 import { bindActionCreators, Dispatch } from 'redux';
 import { Action } from 'typescript-fsa';
@@ -46,9 +45,6 @@ export const SampleContainer: React.SFC<ISampleProps> = ({
                 clickCount: {count}
             </p>
             <Sample>This is Sample Container</Sample>
-            <Link href="/" as="/">
-                <a>topへのリンク</a>
-            </Link>
         </div>
     );
 };
