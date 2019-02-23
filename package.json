@@ -1,5 +1,5 @@
 {
-    "name": "with-jest-typescript",
+    "name": "nextjs-template",
     "version": "1.0.0",
     "main": "src/server.js",
     "scripts": {
@@ -52,6 +52,12 @@
         "typescript-fsa": "^3.0.0-beta-2",
         "typescript-fsa-reducers": "^1.2.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rn1k/next-template"
+    },
+    "author": "@m1k__ (https://twitter.com/m1k__)",
+    "license": "MIT",
     "husky": {
         "hooks": {
             "pre-commit": "lint-staged"
