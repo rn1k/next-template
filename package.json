@@ -1,15 +1,17 @@
 {
     "name": "with-jest-typescript",
     "version": "1.0.0",
+    "main": "src/server.js",
     "scripts": {
         "test": "jest",
-        "dev": "next src",
+        "dev": "node src/server.js",
         "build": "next build src",
-        "start": "next start src",
+        "start": "NODE_ENV=production node src/server.js",
         "precommit": "lint-staged",
         "storybook": "start-storybook -p 9001 -c .storybook"
     },
     "dependencies": {
+        "express": "^4.16.4",
         "next": "^8.0.3",
         "next-redux-saga": "^3.0.0",
         "next-redux-wrapper": "^3.0.0-alpha.1",
