@@ -1,5 +1,14 @@
+import Link from 'next/link';
+
 const IndexPage = () => (
-    <h1>Testing Next.js App written in TypeScript with Jest</h1>
+    <>
+        <h1>next.jsサンプル</h1>
+        <p>
+            <Link href="/sample" as="/sample">
+                <a>sampleへのリンク</a>
+            </Link>
+        </p>
+    </>
 );
 
 export default IndexPage;
