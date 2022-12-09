@@ -11,7 +11,7 @@
         "storybook": "start-storybook -p 9001 -c .storybook"
     },
     "dependencies": {
-        "express": "^4.16.4",
+        "express": "^4.17.3",
         "next": "^9.3.2",
         "next-redux-saga": "^3.0.0",
         "next-redux-wrapper": "^3.0.0-alpha.1",
